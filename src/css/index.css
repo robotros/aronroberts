@@ -1,3 +1,9 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #747704;
+}
+
 html {
   font-size: 1rem;
 }
@@ -27,6 +33,15 @@ body {
 
 header {
   padding-bottom:25px;
+  border-bottom: 2px solid #bcbbbb;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  border-top: 2px solid #bcbbbb;
+  padding-top: 5px;
+  margin-top: 10px;
 }
 
 h1{
@@ -43,4 +58,16 @@ padding-top: 0;
 }
 .center-align {
   margin: 0 auto;
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.logo {
+  margin-top: 20px;
 }
