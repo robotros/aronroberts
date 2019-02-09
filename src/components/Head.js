@@ -18,7 +18,7 @@ class Head extends Component {
         <nav className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
           <div className='container'>
             <div className='navbar-brand'>
-              <img src={logo} alt='Roberts'></img>
+              <img className='logo img-fluid' src={logo} alt='Roberts'></img>
             </div>
             <button className='navbar-toggler'
               type='button'
