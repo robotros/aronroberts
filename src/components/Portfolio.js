@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Project from './Project';
+import Modals from './Modals';
 import WMPQ from '../img/wmpq_website.png';
 import Matching from '../img/matching.png';
 import Arcade from '../img/arcade.png';
@@ -20,7 +21,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/WMPQ-Website',
         'url': 'https://wmpq.org',
         'image': WMPQ,
-        'description' :'',
+        'description': '',
       },
       {
         'ID': 'Match',
@@ -28,7 +29,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/fend-project-memory-game-master',
         'url': 'http://www.aronroberts.com/memory/index.html',
         'image': Matching,
-        'description' :'',
+        'description': '',
       },
       {
         'ID': 'Arcade',
@@ -36,7 +37,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/fend-project-memory-game-master',
         'url': 'http://www.aronroberts.com/arcade/index.html',
         'image': Arcade,
-        'description' :'',
+        'description': '',
       },
       {
         'ID': 'NMap',
@@ -44,7 +45,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/FEND-neighborhood-map',
         'url': 'http://fendreactmap.aronroberts.com/',
         'image': NMap,
-        'description' :'',
+        'description': '',
       },
       {
         'ID': 'Blog',
@@ -52,7 +53,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/UDACITY/tree/master/full-stack-nanodegree/Project-Multi-User-Blog',
         'url': 'https://hello-world-158219.appspot.com/blog/',
         'image': Blog,
-        'description' :'',
+        'description': '',
       },
     ],
   }
@@ -63,34 +64,48 @@ class Portfolio extends Component {
   render() {
     return (
       <div className='container'>
-        <div className='row' id='header'>
+        <div className='row'>
           <div className='col-md-2'>
-            <img src='images/logo.jpg' className='img-responsive logo' alt='R - logo'></img>
           </div>
           <div className='col-md-10 text-right text-uppercase'>
-            <h1 className='text-thin'>Aron Roberts
+            <h1 className='text-thin blue'>Aron Roberts
               <br></br><small>Full Stack Engineer</small>
             </h1>
           </div>
         </div>
         <div className='row'>
           <div className='col-md-12'>
-            <img src={Banner} className='img-responsive' alt='code on monitor' />
+            <img src={Banner}
+              className='img-responsive img-fluid'
+              alt='code on monitor' />
           </div>
         </div>
-        <section id="projects">
-          <div className="row">
-            <div className="col-md-12">
-              <h2 className="text-muted">Featured Work</h2>
+        <hr></hr>
+        <section id='projects'>
+          <div className='row'>
+            <div className='col-md-12'>
+              <h2 className='text-muted'>Featured Work</h2>
             </div>
           </div>
+          <div className='container'>
+            <div className='row'>
+              {this.state.projects.map((P) =>
+                <Project
+                  key={P.name}
+                  proj={P}
+                />
+              )}
+            </div>
+          </div>
+        </section>
+        <div>
           {this.state.projects.map((P) =>
-            <Project
+            <Modals
               key={P.name}
-              Proj={P}
+              proj={P}
             />
           )}
-        </section>
+        </div>
       </div>
     );
   }
