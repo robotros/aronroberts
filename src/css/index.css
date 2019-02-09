@@ -4,6 +4,10 @@
   color: #747704;
 }
 
+body{
+  color:black;
+}
+
 html {
   font-size: 1rem;
 }
@@ -32,25 +36,14 @@ body {
 }
 
 header {
-  padding-bottom:25px;
-  border-bottom: 2px solid #bcbbbb;
   padding-bottom: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 footer {
   border-top: 2px solid #bcbbbb;
-  padding-top: 5px;
   margin-top: 10px;
-}
-
-h1{
-font-size: 5em;
-}
-
-h2{
-font-size: 3em;
-padding-top: 0;
+  color: #747704;
 }
 
 .foot{
@@ -69,5 +62,20 @@ padding-top: 0;
 }
 
 .logo {
-  margin-top: 20px;
+  max-height: 50px;
+}
+
+.project {
+  border-width: 5px;
+  border-color: gray;
+  border-style: solid;
+  margin: 2px;
+}
+
+.proj-img {
+  max-height: 200px;
+}
+
+.blue {
+  color:blue;
 }
