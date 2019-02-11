@@ -13,7 +13,7 @@ class Project extends Component {
   render() {
     let target = '#' + this.props.proj.ID;
     return (
-      <div className='col-md-4 project'>
+      <div className='col-md-3 project'>
         <img src={this.props.proj.image}
           className='img-responsive img-fluid img-thumbnail proj-img'
           alt={this.props.proj.name} data-toggle='modal'
