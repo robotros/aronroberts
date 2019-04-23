@@ -1,11 +1,12 @@
 * {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  color: #747704;
+  color: navy;
 }
 
-h1, h2, h3 {
-  font-family: 'Overlock SC', cursive;
+h1, h2, h3,h4 {
+  font-family: 'Expletus Sans', cursive;
+  color: navy;
 }
 
 body{
@@ -70,10 +71,6 @@ footer {
 }
 
 .project {
-  border-width: 5px;
-  border-color: gray;
-  border-style: solid;
-  margin: 2px;
 }
 
 .proj-img {
@@ -82,4 +79,8 @@ footer {
 
 .blue {
   color:blue;
+}
+
+.black {
+  color:black;
 }
