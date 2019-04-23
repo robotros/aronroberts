@@ -22,7 +22,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/WMPQ-Website',
         'url': 'https://wmpq.org',
         'image': WMPQ,
-        'description': '',
+        'description': 'The website for WMPQ Gaming',
       },
       {
         'ID': 'Match',
@@ -30,7 +30,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/fend-project-memory-game-master',
         'url': 'http://www.aronroberts.com/memory/index.html',
         'image': Matching,
-        'description': '',
+        'description': 'A simple memory game created in javascript',
       },
       {
         'ID': 'Arcade',
@@ -38,7 +38,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/fend-project-memory-game-master',
         'url': 'http://www.aronroberts.com/arcade/index.html',
         'image': Arcade,
-        'description': '',
+        'description': 'A frogger like game made in javascript',
       },
       {
         'ID': 'NMap',
@@ -46,7 +46,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/FEND-neighborhood-map',
         'url': 'http://fendreactmap.aronroberts.com/',
         'image': NMap,
-        'description': '',
+        'description': 'A neighboorhood map using various APIs',
       },
       {
         'ID': 'Blog',
@@ -54,7 +54,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/UDACITY/tree/master/full-stack-nanodegree/Project-Multi-User-Blog',
         'url': 'https://hello-world-158219.appspot.com/blog/',
         'image': Blog,
-        'description': '',
+        'description': 'A multi user blog built on google using python',
       },
       {
         'ID': 'LottoPicker',
@@ -62,7 +62,7 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/Lottery_App',
         'url': 'https://lottopicker.online',
         'image': Lottopicker,
-        'description': '',
+        'description': 'An website that generates powerball numbers',
       },
     ],
   }
