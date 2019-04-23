@@ -78,7 +78,7 @@ class Portfolio extends Component {
           </div>
           <div className='col-md-10 text-right text-uppercase'>
             <h1 className='black'>Aron Roberts
-              <br></br><small>Full Stack Engineer</small>
+              <br></br><small className='navy'>Full Stack Engineer</small>
             </h1>
           </div>
         </div>

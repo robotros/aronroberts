@@ -1,7 +1,7 @@
 * {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  color: navy;
+  color: black;
 }
 
 h1, h2, h3,h4 {
@@ -79,6 +79,10 @@ footer {
 
 .blue {
   color:blue;
+}
+
+.navy {
+  color:navy;
 }
 
 .black {

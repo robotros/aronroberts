@@ -13,6 +13,8 @@ import {faCopyright, faFlagUsa} from '@fortawesome/free-solid-svg-icons';
 import Head from './components/Head';
 import Foot from './components/Foot';
 import Portfolio from './components/Portfolio';
+import Bio from './components/Bio';
+import Credentials from './components/Credentials';
 import './css/app.css';
 
 // font awesome icon library
@@ -29,6 +31,16 @@ class AronRobertsApp extends React.Component {
         'path': '/',
         'label': 'Portfolio',
         'component': Portfolio,
+      },
+      {
+        'path': '/Bio',
+        'label': 'Bio',
+        'component': Bio,
+      },
+      {
+        'path': '/Credentials',
+        'label': 'Credentials',
+        'component': Credentials,
       },
     ],
     social: [
