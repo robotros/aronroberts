@@ -68,7 +68,7 @@ class Portfolio extends Component {
           <div className='col-md-2'>
           </div>
           <div className='col-md-10 text-right text-uppercase'>
-            <h1 className='text-thin blue'>Aron Roberts
+            <h1 className='black'>Aron Roberts
               <br></br><small>Full Stack Engineer</small>
             </h1>
           </div>
@@ -82,12 +82,12 @@ class Portfolio extends Component {
         </div>
         <hr></hr>
         <section id='projects'>
-          <div className='row'>
-            <div className='col-md-12'>
-              <h2 className='text-muted'>Featured Work</h2>
-            </div>
-          </div>
           <div className='container'>
+            <div className='row'>
+              <div className='col-md-12'>
+                <h2 className='text-muted'>Featured Work</h2>
+              </div>
+            </div>
             <div className='row'>
               {this.state.projects.map((P) =>
                 <Project

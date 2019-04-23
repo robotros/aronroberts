@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from '../img/robotros_enterprises_logo.png';
+import logo from '../img/qrcode.png';
 import NavLink from './NavLink';
 import PropTypes from 'prop-types';
 
