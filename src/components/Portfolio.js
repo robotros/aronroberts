@@ -7,6 +7,7 @@ import Arcade from '../img/arcade.png';
 import NMap from '../img/map.png';
 import Banner from '../img/banner.jpg';
 import Blog from '../img/blog.jpg';
+import Lottopicker from '../img/lottopicker.png';
 
 /**
 * React Component to Render Aron Roberts Portfolio
@@ -53,6 +54,14 @@ class Portfolio extends Component {
         'github': 'https://github.com/robotros/UDACITY/tree/master/full-stack-nanodegree/Project-Multi-User-Blog',
         'url': 'https://hello-world-158219.appspot.com/blog/',
         'image': Blog,
+        'description': '',
+      },
+      {
+        'ID': 'LottoPicker',
+        'name': 'Power Ball Generator',
+        'github': 'https://github.com/robotros/Lottery_App',
+        'url': 'https://lottopicker.online',
+        'image': Lottopicker,
         'description': '',
       },
     ],
