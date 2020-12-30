@@ -1,5 +1,9 @@
 {
   "homepage": "http://www.aronroberts.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robotros/aronroberts"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -27,5 +31,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "license": "MIT"
 }
