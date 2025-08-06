@@ -11,7 +11,7 @@
     "acorn": "^6.4.2",
     "ajv": "^6.12.6",
     "babel-eslint": "^7.2.3",
-    "eslint": "^4.19.1",
+    "eslint": "^9.32.0",
     "eslint-config-google": "^0.10.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.21.5",
@@ -23,7 +23,7 @@
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
-    "react-scripts": "1.1.4",
+    "react-scripts": "5.0.1",
     "react-social-icons": "^4.1.0"
   },
   "scripts": {
