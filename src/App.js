@@ -7,7 +7,6 @@
 */
 import React from 'react';
 import {Route} from 'react-router-dom';
-import ReactDOMServer from 'react-dom/server';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {faCopyright, faFlagUsa} from '@fortawesome/free-solid-svg-icons';
 import Head from './components/Head';
