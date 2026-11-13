@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import Project from './Project';
 import Modals from './Modals';
-import WMPQ from '../img/wmpq_website.png';
-import Matching from '../img/matching.png';
-import Arcade from '../img/arcade.png';
-import NMap from '../img/map.png';
+import WMPQ from '../img/wmpq_website.PNG';
+import Matching from '../img/matching.PNG';
+import Arcade from '../img/arcade.PNG';
+import NMap from '../img/map.PNG';
 import Banner from '../img/banner.jpg';
 import Blog from '../img/blog.jpg';
 import Lottopicker from '../img/lottopicker.png';
