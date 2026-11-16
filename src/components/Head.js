@@ -1,5 +1,6 @@
+'use client';
+
 import React, {Component} from 'react';
-import logo from '../img/qrcode.png';
 import NavLink from './NavLink';
 import PropTypes from 'prop-types';
 
@@ -18,7 +19,7 @@ class Head extends Component {
         <nav className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
           <div className='container'>
             <div className='navbar-brand'>
-              <img className='logo img-fluid' src={logo} alt='Roberts'></img>
+              <img className='logo img-fluid' src='/img/qrcode.png' alt='Roberts'></img>
             </div>
             <button className='navbar-toggler'
               type='button'
