@@ -1,6 +1,9 @@
+'use client';
+
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCopyright} from '@fortawesome/free-solid-svg-icons';
 import {SocialIcon} from 'react-social-icons';
 
 /**
@@ -27,7 +30,7 @@ class Foot extends Component {
             </div>
             <div className='col-md-6'>
               <p className='m-0 text-center text-white'>
-                 Copyright <FontAwesomeIcon icon='copyright' /> 2019 Aron Roberts
+                 Copyright <FontAwesomeIcon icon={faCopyright} /> 2019 Aron Roberts
               </p>
             </div>
           </div>

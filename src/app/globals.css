@@ -4,32 +4,32 @@
   color: black;
 }
 
-h1, h2, h3,h4 {
+h1, h2, h3, h4 {
   font-family: 'Expletus Sans', cursive;
   color: navy;
 }
 
-body{
-  color:black;
+body {
+  color: black;
 }
 
 html {
   font-size: 1rem;
 }
 
-@include media-breakpoint-up(sm) {
+@media (min-width: 576px) {
   html {
     font-size: 1.2rem;
   }
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   html {
     font-size: 1.4rem;
   }
 }
 
-@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
   html {
     font-size: 1.6rem;
   }
@@ -51,9 +51,10 @@ footer {
   color: #747704;
 }
 
-.foot{
-  padding:0px;
+.foot {
+  padding: 0px;
 }
+
 .center-align {
   margin: 0 auto;
 }
@@ -70,21 +71,18 @@ footer {
   max-height: 50px;
 }
 
-.project {
-}
-
 .proj-img {
   max-height: 200px;
 }
 
 .blue {
-  color:blue;
+  color: blue;
 }
 
 .navy {
-  color:navy;
+  color: navy;
 }
 
 .black {
-  color:black;
+  color: black;
 }

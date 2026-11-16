@@ -1,36 +1,24 @@
 {
-  "homepage": "http://www.aronroberts.com",
+  "name": "aronroberts",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/robotros/aronroberts"
   },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "acorn": "^6.4.2",
-    "ajv": "^6.12.6",
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.19.1",
-    "eslint-config-google": "^0.10.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.21.5",
-    "install": "^0.12.2",
-    "npm": "^6.14.10",
-    "prop-types": "^15.7.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-router-dom": "^4.3.1"
-  },
-  "devDependencies": {
-    "react-scripts": "1.1.4",
-    "react-social-icons": "^4.1.0"
-  },
+  "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "next dev --hostname 127.0.0.1 --port 3000",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3000"
   },
-  "license": "MIT"
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "7.3.1",
+    "@fortawesome/free-solid-svg-icons": "7.3.1",
+    "@fortawesome/react-fontawesome": "3.5.0",
+    "next": "16.4.6",
+    "prop-types": "15.8.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-social-icons": "6.27.0"
+  }
 }

@@ -1,13 +1,8 @@
+'use client';
+
 import React, {Component} from 'react';
 import Project from './Project';
 import Modals from './Modals';
-import WMPQ from '../img/wmpq_website.PNG';
-import Matching from '../img/matching.PNG';
-import Arcade from '../img/arcade.PNG';
-import NMap from '../img/map.PNG';
-import Banner from '../img/banner.jpg';
-import Blog from '../img/blog.jpg';
-import Lottopicker from '../img/lottopicker.png';
 
 /**
 * React Component to Render Aron Roberts Portfolio
@@ -21,7 +16,7 @@ class Portfolio extends Component {
         'name': 'WMPQ Gaming',
         'github': 'https://github.com/robotros/WMPQ-Website',
         'url': 'https://wmpq.org',
-        'image': WMPQ,
+        'image': '/img/wmpq_website.png',
         'description': 'The website for WMPQ Gaming',
       },
       {
@@ -29,7 +24,7 @@ class Portfolio extends Component {
         'name': 'Matching Game',
         'github': 'https://github.com/robotros/fend-project-memory-game-master',
         'url': 'http://www.aronroberts.com/memory/index.html',
-        'image': Matching,
+        'image': '/img/matching.png',
         'description': 'A simple memory game created in javascript',
       },
       {
@@ -37,7 +32,7 @@ class Portfolio extends Component {
         'name': 'Arcade Game',
         'github': 'https://github.com/robotros/fend-project-memory-game-master',
         'url': 'http://www.aronroberts.com/arcade/index.html',
-        'image': Arcade,
+        'image': '/img/arcade.png',
         'description': 'A frogger like game made in javascript',
       },
       {
@@ -45,7 +40,7 @@ class Portfolio extends Component {
         'name': 'Neighboorhood Map',
         'github': 'https://github.com/robotros/FEND-neighborhood-map',
         'url': 'http://fendreactmap.aronroberts.com/',
-        'image': NMap,
+        'image': '/img/map.png',
         'description': 'A neighboorhood map using various APIs',
       },
       {
@@ -53,7 +48,7 @@ class Portfolio extends Component {
         'name': 'Blog',
         'github': 'https://github.com/robotros/UDACITY/tree/master/full-stack-nanodegree/Project-Multi-User-Blog',
         'url': 'https://hello-world-158219.appspot.com/blog/',
-        'image': Blog,
+        'image': '/img/blog.jpg',
         'description': 'A multi user blog built on google using python',
       },
       {
@@ -61,7 +56,7 @@ class Portfolio extends Component {
         'name': 'Power Ball Generator',
         'github': 'https://github.com/robotros/Lottery_App',
         'url': 'https://lottopicker.online',
-        'image': Lottopicker,
+        'image': '/img/lottopicker.png',
         'description': 'An website that generates powerball numbers',
       },
     ],
@@ -84,7 +79,7 @@ class Portfolio extends Component {
         </div>
         <div className='row'>
           <div className='col-md-12'>
-            <img src={Banner}
+            <img src='/img/banner.jpg'
               className='img-responsive img-fluid'
               alt='code on monitor' />
           </div>

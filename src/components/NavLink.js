@@ -1,30 +1,31 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+'use client';
+
+import Link from 'next/link';
+import {usePathname} from 'next/navigation';
 import PropTypes from 'prop-types';
 
 /**
-* React Component to Render NavLinks for aronroberts.com
-* @author [Aron Roberts](https://github.com/robotros)
+* Next.js link for the site navbar.
+* @param {{L: {path: string, label: string}}} props
+* @return {import('react').ReactElement}
 */
-class NavLink extends Component {
-  /**
-  * Render Component into html
-  * @return {Component} html
-  */
-  render() {
-    return (
-      <li className='nav-item'>
-        <Link to={this.props.L.path}
-          className='nav-link'
-          activeClassName='active'>{this.props.L.label}
-        </Link>
-      </li>
-    );
-  }
+function NavLink({L}) {
+  const pathname = usePathname();
+  const className = pathname === L.path ? 'nav-link active' : 'nav-link';
+  return (
+    <li className='nav-item'>
+      <Link href={L.path} className={className}>
+        {L.label}
+      </Link>
+    </li>
+  );
 }
 
 NavLink.propTypes = {
-  L: PropTypes.object.isRequired,
+  L: PropTypes.shape({
+    path: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default NavLink;
